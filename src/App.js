@@ -9,7 +9,7 @@ import ShopPage from './pages/shop/shoppage';
 import Header from './components/header/header';
 import SignInAndSignUpPage from './pages/sign-in-and-sign-up/sign-in-and-sign-up';
 import { auth, createUserProfileDocument } from './firebase/firebase-utils';
-import { setCurrentUser } from './redux/user/user-action';
+import { setCurrentUser } from './redux/user/user-actions';
 
 class App extends React.Component {
   unsubscribeFromAuth = null;
